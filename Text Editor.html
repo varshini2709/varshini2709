@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+            <title>Text Editor</title>
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+            <script>
+                 $(document).ready(function(){
+                        $('#italic').click(function(){
+                            $('#text').css('font-style','italic')
+                        })
+                        $('#oblique').click(function(){
+                            $('#text').css('font-style','oblique')
+                        })
+                        $('#bold').click(function(){
+                            $('#text').css('font-weight','bold')
+                        })
+                        $('#calibri').click(function(){
+                            $('#text').css('font-family','calibri')
+                        })
+                    })
+      </script>
+    </head>
+    <body>
+   
+
+        <p id="text">Hello world !!!</p>
+        <button id="italic"> make italic </button>
+        <button id="oblique"> make oblique</button>
+        <button id="bold"> make bold</button>
+        <button id="calibri"> make calibri</button>
+       
+       
+
+    </body>
+       
+        </html>
